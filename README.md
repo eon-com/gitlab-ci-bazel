@@ -6,7 +6,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-bazel:0.1` `gitlab-ci-bazel:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-bazel/blob/master/Dockerfile)
+[`gitlab-ci-bazel:0.2` `gitlab-ci-bazel:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-bazel/blob/master/Dockerfile)
 
 
 # Quick reference
@@ -33,10 +33,12 @@ This is the image that the internal gitlab-ci uses to build a java service.
 ### Tools installed inside the image
 
 - openjdk 11
-- bazel 4.0
+- go 1.16.0
+- bazel 3.7.2
 - python 3
-- docker 20.10
+- docker 20.20
 - gcc
+- taskfile
 
 # License
 
