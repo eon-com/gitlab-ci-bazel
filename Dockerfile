@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:11.0.11-jdk
 RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y gcc python3 docker patch g++ jq
 RUN wget https://dl.google.com/go/go1.16.linux-amd64.tar.gz && tar -xvf go1.16.linux-amd64.tar.gz && mv go /usr/local/go && rm go1.16.linux-amd64.tar.gz && echo "export PATH=\$PATH:/usr/local/go/bin" >> ~/.bashrc
