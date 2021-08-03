@@ -6,7 +6,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-bazel:0.2` `gitlab-ci-bazel:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-bazel/blob/master/Dockerfile)
+[`gitlab-ci-bazel:0.5` `gitlab-ci-bazel:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-bazel/blob/master/Dockerfile)
 
 
 # Quick reference
